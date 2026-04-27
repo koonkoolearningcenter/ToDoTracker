@@ -643,11 +643,9 @@
       <div class="add-task-row">
         <input class="add-input" type="text" id="newTaskInput" placeholder="Describe your task..." onkeydown="if(event.key==='Enter') addTask()">
         <select class="add-tag-select" id="newTaskTag">
-          <option value="Writing">Writing</option>
-          <option value="Analysis">Analysis</option>
-          <option value="Review">Review</option>
-          <option value="Design">Design</option>
-          <option value="Research">Research</option>
+          <option value="High Priority">Writing</option>
+          <option value="Medium Priority">Analysis</option>
+          <option value="Low Priority">Review</option>
           <option value="Other">Other</option>
         </select>
         <button class="btn primary" onclick="addTask()">Add</button>
